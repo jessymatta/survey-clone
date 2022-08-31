@@ -1,0 +1,116 @@
+*{  
+    font-family: 'Arial', sans-serif;
+}
+
+body{
+    background-color: #ababab;
+    background-size: cover; 
+}
+
+.main{
+    width: 37%;/*30vm*/
+    margin: 28px auto;
+    background-color: #e5e5e5;
+}
+
+.title h1{
+    text-align: center;
+    background-color: white;
+    padding: 28px;
+    font-size: 25px;
+    color:#891b28;
+    font-weight: 900;
+}
+
+label{
+    font-size: 0.6em;
+    color:#9e212f;
+    padding: 10px;
+}
+
+.question{
+    font-size: 0.7em;
+    font-weight:bold;
+    color:#891b28;
+    margin-top:27px;
+    margin-left: 40px;
+}
+
+.survey-body input{
+    margin:0 auto;
+}
+
+.survey-body td{
+    width:400px;
+}
+
+.comments{
+    margin-top: 40px;
+}
+
+
+table{
+    margin-left:40px ;
+    margin-top:5px;
+}
+
+input{
+    border:1px solid #b0acac;
+    border-radius: 4px;
+}
+
+textarea{
+    width: 85%;
+    margin: 10px 40px 15px; /*top , left and right, bottom*/
+    border:1px solid #b0acac;
+    border-radius: 4px;
+}
+
+
+td{
+    height:22px;
+}
+
+.servicedate{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.servicedate input{
+    margin-left: 40px;
+    width:210px;
+    height: 24px;
+    margin-top:5px;
+}
+
+.small-label{
+    color: gray;
+    font-size: 11px;
+    margin-left: 40px;
+    margin-top:7px;
+}
+
+
+.submit-button{
+    background-image: linear-gradient(180deg,black,gray);
+    color: white;
+    border: none;
+    height:38px;
+    width:120px;
+    border-radius:3px;
+    cursor:pointer;
+    opacity:0.7;
+}
+
+
+.submit-button-div{
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+
+.submit-button:hover{
+    opacity:0.3;
+}
+

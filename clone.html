@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Follow Up Survey</title>
+        <link rel="stylesheet" href="styles/resetsheet.css">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+
+    <body>
+
+        <form class="main">
+
+            <!-- Title's section -->
+            <div class="title">
+                <h1>Follow Up Survey</h1>
+            </div>
+
+            <!-- Survey's questions section -->
+            <div class="survey-body">
+
+                <!--  Question 1 out of 7 total questions -->
+                <div class="servicedate">
+                    <p class="question">When did you use our service?</p>
+                    <input type="date">
+                </div>
+                    
+                <div class=" servicedate">
+                    <p class="question nameproduct">Name of product or service</p>
+                    <input type="text">
+                </div>
+
+                <div class="small-label">Date</div>
+
+
+                <!--  Question 2 out of 7 total questions -->
+                <p class="question">Overal how satisfied are you with the product or service?</p>
+                <table>
+                    <!-- First row -->
+                    <tr>
+                        <td>
+                            <input type="radio" name="satisfaction"><label>Very satisfied</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="satisfaction"><label>Satisfied</label>
+                        </td>
+                    </tr>
+
+                    <!--Second row -->
+                    <tr>
+                        <td>
+                            <input type="radio" name="satisfaction"><label>Neutral</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="satisfaction"><label>Unsatisfied</label>
+                        </td>
+                    </tr>
+
+                    <!-- Third row -->
+                    <tr>
+                        <td>
+                            <input type="radio" name="satisfaction"><label>Very unsatisfied</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="satisfaction"><label>N/A</label>
+                        </td>
+                    </tr>
+                </table>
+
+                <!--  Question 3 out of 7 total questions -->
+                <p class="question">Did our product or service meet your expectations?</p>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="radio" name="expectations"><label>Yes</label> 
+                        </td>
+                        <td>
+                            <input type="radio" name="expectations"><label>No</label> 
+                        </td>
+                    </tr>
+
+                </table>
+
+                <!--  Question 4 out of 7 total questions -->
+                <p class="question">Would you recommend this product to a friend?</p>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="radio" name="recommendation"><label>Yes</label> 
+                        </td>
+                        <td>
+                            <input type="radio" name="recommendation"><label>No</label> 
+                        </td>
+                    </tr>
+                </table>
+
+                <!--  Question 5 out of 7 total questions -->
+                <p class="question">What aspect of the product or service were you most satisfied by?</p>
+
+                <table>
+                    <tr>
+                        <td>
+                            <input type="radio" name="aspects"><label>Quality</label> 
+                        </td>
+                        <td>
+                            <input type="radio" name="aspects"><label>Price</label> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="aspects"><label>Customer service</label> 
+                        </td>
+                        <td>
+                            <input type="radio" name="aspects"><label>Installation of first use experience</label> 
+                        </td>
+
+                    </tr>
+                </table>
+
+                <!--  Question 6 out of 7 total questions -->
+                <p class="question">What aspect of the product or service were you least satisfied by?</p>
+
+                <table>
+                    <tr>
+                        <td>
+                            <input type="radio" name="aspects"><label>Quality</label> 
+                        </td>
+                        <td>
+                            <input type="radio" name="aspects"><label>Price</label> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="aspects"><label>Customer service</label> 
+                        </td>
+                        <td>
+                            <input type="radio" name="aspects"><label>Installation of first use experience</label> 
+                        </td>
+
+                    </tr>
+                </table>
+
+            </div> 
+            <!-- Comments section -->
+            <div class="comments">
+                <p class="question">Additional comments:</p>
+                <textarea rows="7" cols="60" wrap="virtual" placeholder="Type here..."></textarea></td>
+            </div>
+            
+            <!-- Submit button section -->
+            <div class="submit-button-div" >
+                <button class="submit-button">Submit</button>
+            </div>
+
+        </form>
+        </div>
+    </body>
+</html>
